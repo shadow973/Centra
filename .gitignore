@@ -8,4 +8,3 @@ build/
 
 config.json
 Dockerrun.aws.json
-docker-image.yml

@@ -1,0 +1,70 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.springframework.boot' version '2.6.3'
+    id 'com.github.node-gradle.node' version '3.1.1'
+    id "io.freefair.lombok" version "6.3.0"
+    id 'com.google.cloud.tools.jib' version '3.2.0'
+}
+
+group = 'dev.conductor'
+version = '1.0.0'
+description = 'centra'
+
+springBoot {
+    mainClass = 'dev.conductor.centra.CentraApplication'
+    buildInfo()
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.spring.io/release' }
+}
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-security:2.6.3')
+    implementation('org.springframework.boot:spring-boot-starter-data-mongodb:2.6.3')
+    implementation('com.github.cloudyrock.mongock:mongock-bom:4.3.8')
+    implementation('org.mongodb:mongodb-driver-sync:4.4.1')
+    implementation('org.springframework.data:spring-data-mongodb:3.3.1')
+    implementation('com.auth0:java-jwt:3.18.3')
+    implementation('org.springframework.boot:spring-boot-starter-hateoas:2.6.3')
+    implementation('org.antlr:antlr4-runtime:4.9.3')
+    implementation('commons-codec:commons-codec:1.15')
+    implementation('javax.xml.bind:jaxb-api:2.4.0-b180830.0359')
+    implementation('com.github.cloudyrock.mongock:mongock-spring-v5:4.3.8')
+    implementation('com.github.cloudyrock.mongock:mongodb-springdata-v3-driver:4.3.8')
+    implementation('io.springfox:springfox-boot-starter:3.0.0')
+    implementation('org.springframework.boot:spring-boot-starter-web:2.6.3')
+    implementation('org.javers:javers-spring-boot-starter-mongo:6.6.2')
+    implementation('org.modelmapper:modelmapper:2.4.5')
+    implementation('org.springframework.boot:spring-boot-starter-cache:2.6.3')
+    implementation('org.springframework.boot:spring-boot-starter-data-redis:2.6.3')
+    implementation('org.springframework.boot:spring-boot-starter-websocket:2.6.3')
+    implementation('com.google.code.gson:gson:2.8.9')
+    implementation('org.springframework.social:spring-social-security:1.1.6.RELEASE')
+    implementation('org.springframework.social:spring-social-config:1.1.6.RELEASE')
+    implementation('org.springframework.social:spring-social-core:1.1.6.RELEASE')
+    implementation('org.springframework.social:spring-social-google:1.0.0.RELEASE')
+    testImplementation('org.springframework.boot:spring-boot-starter-test:2.6.3')
+}
+
+
+jib.to {
+    image = "conductorsoftwarefactory/centra"
+}
+
+jib.from {
+    platforms {
+        platform {
+            architecture = 'amd64'
+            os = 'linux'
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}

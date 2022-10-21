@@ -1,0 +1,335 @@
+[
+  {
+    "type": "draw2d.shape.node.Start",
+    "id": "b0f3d282-9916-ba6a-c53d-d095c6e1545a",
+    "x": 623,
+    "y": 234,
+    "width": 50,
+    "height": 50,
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_Start",
+    "ports": [
+      {
+        "type": "draw2d.HybridPort",
+        "id": "6d7f9e54-ea8d-c3c0-4fb3-c47422979156",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_HybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "1615397641801_bottomCenter",
+        "semanticGroup": "global",
+        "port": "draw2d.HybridPort",
+        "locator": "draw2d.layout.locator.XYRelPortLocator",
+        "locatorAttr": {}
+      }
+    ],
+    "bgColor": "rgba(192,192,192,1)",
+    "color": "rgba(61,61,61,1)",
+    "stroke": 0,
+    "radius": 300,
+    "dasharray": null
+  },
+  {
+    "type": "draw2d.shape.node.Between",
+    "id": "46bfcbb7-d546-371b-e428-50aa15b47fe0",
+    "x": 608,
+    "y": 321,
+    "width": 80,
+    "height": 36,
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_Between",
+    "ports": [
+      {
+        "type": "draw2d.HybridPort",
+        "id": "ca8c8a1e-a5bb-9559-9a20-e38e89da15b5",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_HybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "1615397650119_middleLeft",
+        "semanticGroup": "global",
+        "port": "draw2d.HybridPort",
+        "locator": "draw2d.layout.locator.XYRelPortLocator",
+        "locatorAttr": {}
+      },
+      {
+        "type": "draw2d.HybridPort",
+        "id": "d6f01637-38b8-d64a-8b08-0f04211cac33",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_HybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "1615397650122_bottomCenter",
+        "semanticGroup": "global",
+        "port": "draw2d.HybridPort",
+        "locator": "draw2d.layout.locator.XYRelPortLocator",
+        "locatorAttr": {}
+      }
+    ],
+    "bgColor": "rgba(65,81,113,1)",
+    "color": "rgba(69,130,229,1)",
+    "stroke": 0,
+    "radius": 4,
+    "dasharray": null
+  },
+  {
+    "type": "draw2d.shape.node.Between",
+    "id": "9bc44fbe-4085-cf26-a4a2-d89cad3fdf33",
+    "x": 590.5,
+    "y": 384,
+    "width": 115,
+    "height": 36,
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_Between",
+    "ports": [
+      {
+        "type": "draw2d.HybridPort",
+        "id": "2dd62047-d07f-240c-6c81-667a22b5744f",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_HybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "1615397659864_topCenter",
+        "semanticGroup": "global",
+        "port": "draw2d.HybridPort",
+        "locator": "draw2d.layout.locator.XYRelPortLocator",
+        "locatorAttr": {}
+      },
+      {
+        "type": "draw2d.HybridPort",
+        "id": "83c60274-e8be-265e-4bbe-6e75a7caaa6a",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_HybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "1615397659866_bottomCenter",
+        "semanticGroup": "global",
+        "port": "draw2d.HybridPort",
+        "locator": "draw2d.layout.locator.XYRelPortLocator",
+        "locatorAttr": {}
+      }
+    ],
+    "bgColor": "rgba(38,81,205,1)",
+    "color": "rgba(69,130,229,1)",
+    "stroke": 0,
+    "radius": 4,
+    "dasharray": null
+  },
+  {
+    "type": "draw2d.shape.node.Between",
+    "id": "607aeeb9-24ba-a4f2-d81e-ecf60f30dbe8",
+    "x": 608,
+    "y": 450,
+    "width": 80,
+    "height": 36,
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_shape_node_Between",
+    "ports": [
+      {
+        "type": "draw2d.HybridPort",
+        "id": "daef3bcc-d648-a64f-4938-14dc90af27de",
+        "width": 10,
+        "height": 10,
+        "alpha": 1,
+        "selectable": false,
+        "draggable": true,
+        "angle": 0,
+        "userData": {},
+        "cssClass": "draw2d_HybridPort",
+        "bgColor": "rgba(79,104,112,1)",
+        "color": "rgba(27,27,27,1)",
+        "stroke": 1,
+        "dasharray": null,
+        "maxFanOut": 9007199254740991,
+        "name": "1615397681848_topCenter",
+        "semanticGroup": "global",
+        "port": "draw2d.HybridPort",
+        "locator": "draw2d.layout.locator.XYRelPortLocator",
+        "locatorAttr": {}
+      }
+    ],
+    "bgColor": "rgba(33,132,90,1)",
+    "color": "rgba(69,130,229,1)",
+    "stroke": 0,
+    "radius": 4,
+    "dasharray": null
+  },
+  {
+    "type": "draw2d.Connection",
+    "id": "7ed562eb-5770-74ab-3779-0b04e52d9073",
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_Connection",
+    "stroke": 2,
+    "color": "rgba(0,168,240,1)",
+    "outlineStroke": 0,
+    "outlineColor": "rgba(48,48,48,1)",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "vertex": [
+      {
+        "x": 648.575,
+        "y": 417.84
+      },
+      {
+        "x": 648.4,
+        "y": 450
+      }
+    ],
+    "router": "draw2d.layout.connection.ManhattanConnectionRouter",
+    "radius": 5,
+    "source": {
+      "node": "9bc44fbe-4085-cf26-a4a2-d89cad3fdf33",
+      "port": "1615397659866_bottomCenter"
+    },
+    "target": {
+      "node": "607aeeb9-24ba-a4f2-d81e-ecf60f30dbe8",
+      "port": "1615397681848_topCenter"
+    }
+  },
+  {
+    "type": "draw2d.Connection",
+    "id": "c4875e74-c780-84e5-70b3-0b2182d4e548",
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_Connection",
+    "stroke": 2,
+    "color": "rgba(0,168,240,1)",
+    "outlineStroke": 0,
+    "outlineColor": "rgba(48,48,48,1)",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "vertex": [
+      {
+        "x": 648.4,
+        "y": 354.84
+      },
+      {
+        "x": 648.575,
+        "y": 384
+      }
+    ],
+    "router": "draw2d.layout.connection.ManhattanConnectionRouter",
+    "radius": 5,
+    "source": {
+      "node": "46bfcbb7-d546-371b-e428-50aa15b47fe0",
+      "port": "1615397650122_bottomCenter"
+    },
+    "target": {
+      "node": "9bc44fbe-4085-cf26-a4a2-d89cad3fdf33",
+      "port": "1615397659864_topCenter"
+    }
+  },
+  {
+    "type": "draw2d.Connection",
+    "id": "9799c57f-813e-035f-a071-e214ff1acbca",
+    "alpha": 1,
+    "selectable": true,
+    "draggable": true,
+    "angle": 0,
+    "userData": {},
+    "cssClass": "draw2d_Connection",
+    "stroke": 2,
+    "color": "rgba(0,168,240,1)",
+    "outlineStroke": 0,
+    "outlineColor": "rgba(48,48,48,1)",
+    "policy": "draw2d.policy.line.LineSelectionFeedbackPolicy",
+    "vertex": [
+      {
+        "x": 648,
+        "y": 284
+      },
+      {
+        "x": 648,
+        "y": 311.59000000000003
+      },
+      {
+        "x": 588,
+        "y": 311.59000000000003
+      },
+      {
+        "x": 588,
+        "y": 339.18
+      },
+      {
+        "x": 608,
+        "y": 339.18
+      }
+    ],
+    "router": "draw2d.layout.connection.ManhattanConnectionRouter",
+    "radius": 5,
+    "source": {
+      "node": "b0f3d282-9916-ba6a-c53d-d095c6e1545a",
+      "port": "1615397641801_bottomCenter"
+    },
+    "target": {
+      "node": "46bfcbb7-d546-371b-e428-50aa15b47fe0",
+      "port": "1615397650119_middleLeft"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+.gradle/
+bin/
+build/
+.idea/
+
+.classpath
+.project
+
+config.json
+Dockerrun.aws.json
+docker-image.yml
